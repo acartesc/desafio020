@@ -5,10 +5,8 @@ module Formula
 	
 		self.instance_variables.each do |x|
 			sum += self.instance_variable_get(x)
-			
-			puts x.inspect 
 		end
-		puts "El perímetro es #{sum}"
+		puts "El perímetro es #{sum*2}"
 	end
 
 	def area
