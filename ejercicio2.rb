@@ -2,7 +2,7 @@ module Formula
 	def perimetro
 		sum = 0
 		perim = 0
-	#	print self.instance_variables
+	
 		self.instance_variables.each do |x|
 			sum += self.instance_variable_get(x)
 			
